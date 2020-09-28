@@ -106,9 +106,6 @@ const getPantheonSettings = options => ({
   },
   drupal_hash_salt: getHash(JSON.stringify(pantheonDatabases)),
   config_directory_name: 'config',
-  settings: {
-    skip_permissions_hardening: 1,
-  },
 });
 
 /*
